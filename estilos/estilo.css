@@ -1,175 +1,209 @@
 *{margin: 0;
-padding: 0;}
-
+    padding: 0;}
     
-    /* textox */
-
-ul{list-style-type: none;
-padding: 10px;}
-
-h1{ text-align: center;
-margin: 20px ;
-font-size: 60px;}
-
-td{ font-size: 20px;}
-
-a{ text-decoration: none; color: white;}
-
-     /* background */
-
-
-header{ background-color: black;}
-
-
-/* header*/
-
-.logoHeader{ max-width: 10%;
-max-height: 10%;
-margin: 30px
-;}
-
-li{padding: 1ch;
-    display: inline;}
-
-
-  /* main*/
-
-
-
-main{
-    background-image: url(https://d375139ucebi94.cloudfront.net/es/business_placeholders/tatuajes-e420bacdd89d4657aa0efcccbd07b43f.tattoo-artists);
-    padding: 10px;
-    }      
-
-.infoPrincipal{ margin: 100px 5px;
-    padding: 10px;
-    background-color: #696969;
-    display: grid;
-    grid-template-areas: 
-    "tituloTres"
-    "textoUno"
-    "tituloDos"
-    "textoDos"
-    "tituloUno"
-    "textoTres";  
-}
-
-.tituloUno{display: grid;
-grid-area: tituloUno;}
-.tituloDos{display: grid;
-    grid-area: tituloDos;}
-.tituloUno{display: grid;
-    grid-area: tituloTres;}
-.textoUno{display: grid;
-    grid-area: textoUno;}
-.textoDos{display: grid;
-        grid-area:textoDos;}
-.textoTres{display: grid;
-    grid-area: textoTres;}
-
-
-.infoPrincipal div{margin: 10px 10px;}
-
-.infoPrincipal p{ padding: 20px;
-text-align: center;}
-h3{ padding: 20px;
-text-align: center;}
-
-
-
-/*footer*/
-#footer{ background-color: #696969;
-color: white;}
-
-.inkRoom__{ display: inline-block;
-    margin: 20px 50px;}
-
-#footer p{display: inline-block;
-margin:  50px;
-}
-
-
-    /* NOSOTROS */
-
-   
-.mainNosotros div{background-color: #696969;
-padding: 5px ;
-margin: 20px;}
-
-.mainNosotros p{ text-align:justify;
-margin: 20px;
-padding: 5px;
-font-size: 2vh;}
-
-.mainNosotross{text-align: center;}
-   
-
-
-    /* CONTACTOS*/ 
-
-.divContactos{
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+        
+        /* textox */
     
-background-color: #696969;}
-
-form { text-align: center;
-    display: grid;
-    justify-content: space-evenly;} 
-
-.divContactos h3{text-align: left;
-    font-size: 3vh;
+    ul{list-style-type: none;
+    padding: 10px;}
     
-}
-
-form div{ text-align: center;
-display: flex;
-flex-direction: column;
-margin: 2vh;}
-
-   /* GALERIA */
-
-.divGaleria{ background-color: rgba(0, 0, 0, 0.589);
-    display: grid;
-    grid-template-columns: repeat( 2, 1fr); 
-    justify-items: center;
-    justify-content: space-evenly;
-    }
-
-
-
-
-table{ margin: 20px;}
-table p{ background-color: #696969;
-padding: 15px;}
-table h2{ background-color: #696969;
-padding: 15px;}
-
-@media screen and (min-width: 756px){
-    .infoPrincipal{
+    h1{ text-align: center;
+    margin: 20px ;
+    font-size: 5vh;}
+    
+    td{ font-size: 20px;}
+    
+    a{ text-decoration: none; color: white;}
+    
+         /* background */
+    
+    
+    header{ background-color: black;}
+    
+    
+    /* header*/
+    
+    .logoHeader{ max-width: 10%;
+    max-height: 10%;
+    margin: 30px
+    ;}
+    
+    li{padding: 1ch;
+        display: inline;}
+    
+    
+      /* main*/
+    
+    
+    
+    main{
+        background-image: url(https://d375139ucebi94.cloudfront.net/es/business_placeholders/tatuajes-e420bacdd89d4657aa0efcccbd07b43f.tattoo-artists);
+        padding: 10px;
+        transform: scale(0.95,0.95);}      
+    
+    .infoPrincipal{ margin: 100px 5px;
+        padding: 10px;
+        background-color: #696969;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows:repeat(3, 1fr);
-        grid-template-areas:
-        "tituloTres textoUno"
-        "tituloDos textoDos"
-        "tituloUno textoTres"
-        ;
-        justify-content: center;}
-
+        grid-template-areas: 
+        "tituloTres"
+        "textoUno"
+        "tituloDos"
+        "textoDos"
+        "tituloUno"
+        "textoTres";  
+    }
+    
+    .tituloUno{display: grid;
+    grid-area: tituloUno;}
+    .tituloDos{display: grid;
+        grid-area: tituloDos;}
+    .tituloUno{display: grid;
+        grid-area: tituloTres;}
+    .textoUno{display: grid;
+        grid-area: textoUno;}
+    .textoDos{display: grid;
+            grid-area:textoDos;}
+    .textoTres{display: grid;
+        grid-area: textoTres;}
+    
+    
+    .infoPrincipal div{margin: 10px 10px;}
+    
+    .infoPrincipal p{ padding: 20px;
+    text-align: center;}
+    h3{ padding: 20px;
+    text-align: center;}
+    
+    
+    
+    /*footer*/
+    #footer{ background-color: #696969;
+    color: white;}
+    
+    .inkRoom__{ display: inline-block;
+        margin: 20px 50px;}
+    
+    #footer p{display: inline-block;
+    margin:  50px;
+    }
+    
+    
+        /* NOSOTROS */
+    
+       
+    .mainNosotros div{background-color: #696969;
+    padding: 5px ;
+    margin: 20px;}
+    
+    .mainNosotros p{ text-align:justify;
+    margin: 20px;
+    padding: 5px;
+    font-size: 2vh;}
+    
+    .mainNosotross{text-align: center;}
+       
+    
+    
+        /* CONTACTOS*/ 
+    
+    .divContactos{
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        
+    background-color: #696969;}
+    
+    form { text-align: center;
+        display: grid;
+        justify-content: space-evenly;} 
+    
+    .divContactos h3{text-align: left;
+        font-size: 3vh;
+        
+    }
+    
+    form div{ text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;}
+    
+       /* GALERIA */
+    
     .divGaleria{ background-color: rgba(0, 0, 0, 0.589);
         display: grid;
-        grid-template-columns: repeat( 3, 1fr); 
+        grid-template-columns: repeat( 2, 1fr); 
         justify-items: center;
         justify-content: space-evenly;}
-
-    .mainNosotros div{background-color: #696969;
-            padding: 5px ;
-            margin: 100px;}
-
-    .mainNosotross{text-align: center;
-        font-size: 3vh;
-            }
     
-}
+    .divGaleria img{ width:10vh;
+    height:10vh ;
+    transition: all 2s ;
+    filter: grayscale(90%);}
+    
+    .divGaleria img:hover{width: 15vh;
+    height:15vh ;
+    
+    filter:none}
+    
+    table{ margin: 20px;}
+    table p{ background-color: #696969;
+    padding: 15px;}
+    table h2{ background-color: #696969;
+    padding: 15px;}
+    
+    @media screen and (min-width: 756px){
+        .infoPrincipal{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:repeat(3, 1fr);
+            grid-template-areas:
+            "tituloTres textoUno"
+            "tituloDos textoDos"
+            "tituloUno textoTres"
+            ;
+            justify-content: center;}
+    
+        .divGaleria{ background-color: rgba(0, 0, 0, 0.589);
+            display: grid;
+            grid-template-columns: repeat( 3, 1fr); 
+            justify-items: center;
+            justify-content: space-evenly;}
+    
+        .divGaleria img{ width:20vh;
+                height:20vh ;
+                transition: all 2s ;
+                filter: grayscale(90%);} 
+    
+        .divGaleria img:hover{width: 25vh;
+                    height:25vh ;  }         
+    
+        .mainNosotros div{background-color: #696969;
+                padding: 5px ;
+                margin: 100px;}
+    
+        .mainNosotross{text-align: center;
+            font-size: 3vh;
+                }
+        
+    }
+    @media screen and (min-width:1500px){
+    
+        .divGaleria{ background-color: rgba(0, 0, 0, 0.589);
+            display: grid;
+            grid-template-columns: repeat( 3, 1fr); 
+            justify-items: center;
+            justify-content: space-evenly;}
+    
+    
+        .divGaleria img{ width:30vh;
+            height:30vh ;
+            transition: all 2s ;
+            filter: grayscale(90%);} 
+    
+        .divGaleria img:hover{width: 40vh;
+                height:40vh ;  }  
+                
+    
+    }
+    
